@@ -39,7 +39,7 @@ public class DummyTest{
     public void testDeadDummyCanGiveXP() {
         int actual = deadDummy.giveExperience();
 
-        Assert.assertEquals(EXPERIENCE , actual);
+        Assert.assertEquals(EXPERIENCE * 2 , actual);
     }
 
     @Test (expected = IllegalStateException.class)
